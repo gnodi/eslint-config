@@ -1,0 +1,38 @@
+{
+  "name": "@gnodi/eslint-config",
+  "description": "[Node.js] Lint your code like gnodi's one",
+  "version": "0.0.0",
+  "author": "Thomas Prelot <tprelot@gmail.com> (https://github.com/Gnucki)",
+  "contributors": [],
+  "keywords": [
+    "gnodi",
+    "lint",
+    "eslint"
+  ],
+  "dependencies": {
+    "eslint": "^3.8.1",
+    "eslint-config-airbnb-base": "^9.0.0",
+    "eslint-config-standard": "^6.2.0",
+    "eslint-plugin-import": "^2.0.1",
+    "eslint-plugin-promise": "^3.3.0",
+    "eslint-plugin-standard": "^2.0.1"
+  },
+  "devDependencies": {},
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gnodi/eslint-config"
+  },
+  "main": "index",
+  "scripts": {
+    "lint": "eslint",
+    "test": "eslint **/*.js"
+  },
+  "bin": {
+    "gnodi-lint": "bin/gnodi-lint.js"
+  },
+  "engines": {
+    "node": ">=6",
+    "npm": ">=3"
+  }
+}
