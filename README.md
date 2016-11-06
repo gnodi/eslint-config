@@ -2,7 +2,11 @@
 
 [Node.js] Lint your code like gnodi !
 
-[![Build Status][travis-image]][travis-url]
+[![Build][build-image]][build-url]
+[![Version][version-image]][version-url]
+[![Downloads][downloads-image]][downloads-url]
+[![Dependencies][dependencies-image]][dependencies-url]
+[![Dev Dependencies][dev-dependencies-image]][dev-dependencies-url]
 
 ## Installation
 
@@ -46,5 +50,13 @@ You can override some [rules](http://eslint.org/docs/rules/) with your own ones 
 
 [MIT](LICENSE)
 
-[travis-image]: https://img.shields.io/travis/gnodi/eslint-config.svg?style=flat
-[travis-url]: https://travis-ci.org/gnodi/eslint-config
+[build-image]: https://img.shields.io/travis/gnodi/eslint-config.svg?style=flat
+[build-url]: https://travis-ci.org/gnodi/eslint-config
+[version-image]: https://img.shields.io/npm/v/@gnodi/eslint-config.svg?style=flat
+[version-url]: https://npmjs.org/package/@gnodi/eslint-config
+[downloads-image]: https://img.shields.io/npm/dm/@gnodi/eslint-config.svg?style=flat
+[downloads-url]: https://npmjs.org/package/@gnodi/eslint-config
+[dependencies-image]:https://david-dm.org/gnodi/eslint-config.svg
+[dependencies-url]:https://david-dm.org/gnodi/eslint-config
+[dev-dependencies-image]:https://david-dm.org/gnodi/eslint-config/dev-status.svg
+[dev-dependencies-url]:https://david-dm.org/gnodi/eslint-config#info=devDependencies
