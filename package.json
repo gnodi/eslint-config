@@ -1,6 +1,6 @@
 {
   "name": "@gnodi/eslint-config",
-  "description": "[Node.js] Lint your code like gnodi's one",
+  "description": "Lint your code like gnodi's one!",
   "version": "0.0.0",
   "author": "Thomas Prelot <tprelot@gmail.com> (https://github.com/Gnucki)",
   "contributors": [],

@@ -1,6 +1,6 @@
-# @gnodi/lint
+# @gnodi/eslint-config
 
-[Node.js] Lint your code like gnodi !
+[Node.js] Lint your code like gnodi!
 
 [![Build][build-image]][build-url]
 [![Version][version-image]][version-url]
