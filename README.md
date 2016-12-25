@@ -34,6 +34,19 @@ Then, you can immediately run the lint:
 $ npm run lint
 ```
 
+### Add custom checked glob
+
+By default, only js files from directories `.`, `bin`, `config`, `lib`, `src` and `test` are processed.
+You can add your own custom directories/files/globs passing it as arguments to your command `gnodi-lint`:
+```json
+...
+"scripts": {
+  ...
+  "lint": "gnodi-lint dist/bundle.js build/**/*.js"
+}
+...
+```
+
 ### Override with custom rules
 
 You can override some [rules](http://eslint.org/docs/rules/) with your own ones just using a standard `.eslintrc`:
