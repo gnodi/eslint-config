@@ -26,7 +26,7 @@
   "main": "index",
   "scripts": {
     "lint": "eslint",
-    "test": "eslint **/*.js"
+    "test": "eslint index.js **/*.js"
   },
   "bin": {
     "gnodi-lint": "bin/gnodi-lint.js"
