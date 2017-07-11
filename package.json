@@ -1,7 +1,7 @@
 {
   "name": "@gnodi/eslint-config",
   "description": "Lint your code like gnodi's one!",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "author": "Thomas Prelot <tprelot@gmail.com> (https://github.com/Gnucki)",
   "contributors": [],
   "keywords": [
