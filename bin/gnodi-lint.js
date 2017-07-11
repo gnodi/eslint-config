@@ -41,7 +41,7 @@ const args = process.argv.slice(2).map((arg) => {
   return arg;
 });
 
-spawn(
+const child = spawn(
   'npm',
   [
     'run', 'lint', '--',
@@ -55,3 +55,7 @@ spawn(
     stdio: 'inherit'
   }
 );
+
+child.on('close', (code) => {
+  process.exit(code);
+});
