@@ -13,10 +13,10 @@ module.exports = {
     sourceType: 'script'
   },
   rules: {
+    'class-methods-use-this': 'off',
     'comma-dangle': ['error', 'never'],
     'no-plusplus': 'off',
     'no-underscore-dangle': ['error', {allowAfterThis: true}],
-    'no-use-before-define': ['error', {functions: false}],
     'object-curly-spacing': ['error', 'never']
   }
 };
